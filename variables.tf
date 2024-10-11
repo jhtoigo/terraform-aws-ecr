@@ -1,4 +1,4 @@
-variable "ecr_repository" {
-  type        = string
-  description = "ECR Repository Name"
+variable "ecr_repositories" {
+  type        = list(string)
+  description = "ECR Repositories Names"
 }
